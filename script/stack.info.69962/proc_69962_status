@@ -1,0 +1,48 @@
+Name:	Novas
+Umask:	0002
+State:	S (sleeping)
+Tgid:	69962
+Ngid:	0
+Pid:	69962
+PPid:	1
+TracerPid:	0
+Uid:	1001	1001	1001	1001
+Gid:	1002	1002	1002	1002
+FDSize:	256
+Groups:	1002 
+VmPeak:	 1147564 kB
+VmSize:	 1147440 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	  377392 kB
+VmRSS:	  377392 kB
+RssAnon:	  281528 kB
+RssFile:	   95864 kB
+RssShmem:	       0 kB
+VmData:	  724084 kB
+VmStk:	     468 kB
+VmExe:	  182584 kB
+VmLib:	   66360 kB
+VmPTE:	    1464 kB
+VmSwap:	       0 kB
+Threads:	3
+SigQ:	1/31078
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001006
+SigCgt:	00000001c0006ef9
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Speculation_Store_Bypass:	thread vulnerable
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	2327664
+nonvoluntary_ctxt_switches:	4194

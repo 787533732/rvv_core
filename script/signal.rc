@@ -1,0 +1,91 @@
+Magic 271485
+Revision Verdi_O-2018.09-SP2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 38 3834 771 410 483
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/host/Project/design_project/cpu/script/top.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 1230.082527
+cursor 0.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 18
+; marker line index
+markerPos 37
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/host/Project/design_project/cpu/script/top.fsdb"
+addSignal -h 25 /top_tb/u_top/u_processor/issue_logic/issue_1
+addSignal -h 25 -holdScope iq_instr1.pc[31:0]
+addSignal -h 25 -holdScope issue_2
+addSignal -h 25 -holdScope iq_instr2.pc[31:0]
+addGroup "G2"
+addSignal -h 25 /top_tb/u_top/u_processor/u0_execute_stage/genblk1/load_store_unit/valid
+addSignal -h 25 -holdScope input_data
+addGroup "G3"
+addSignal -h 25 /top_tb/u_top/u_processor/u0_execute_stage/genblk1/load_store_unit/store_valid
+addSignal -h 25 -holdScope store_address[31:0]
+addSignal -h 25 -holdScope store_data[31:0]
+addSignal -h 25 -holdScope store_microop[4:0]
+addSignal -h 25 -holdScope store_ticket[2:0]
+addGroup "G4"
+addSignal -h 25 /top_tb/u_top/u_processor/u_rob/store_valid
+addSignal -h 25 -holdScope store_data[31:0]
+addSignal -h 25 -holdScope store_ticket[2:0]
+addSignal -h 25 -holdScope store_address[31:0]
+addSignal -h 25 -holdScope rob[7:0]
+addSignal -expanded -h 25 -holdScope writeback_1
+addSignal -h 25 -holdScope writeback_1.valid_commit
+addSignal -h 25 -holdScope writeback_1.valid_write
+addSignal -h 25 -holdScope writeback_1.flushed
+addSignal -h 25 -holdScope writeback_1.ldst[5:0]
+addSignal -h 25 -holdScope writeback_1.pdst[5:0]
+addSignal -h 25 -holdScope writeback_1.ppdst[5:0]
+addSignal -h 25 -holdScope writeback_1.data[31:0]
+addSignal -h 25 -holdScope writeback_1.ticket[2:0]
+addSignal -h 25 -holdScope writeback_1.pc[31:0]
+addGroup "G5"
+addSignal -h 25 /top_tb/u_top/u_processor/cache_wb_valid_o
+addSignal -h 25 -holdScope cache_wb_addr_o[31:0]
+addSignal -h 25 -holdScope cache_wb_data_o[31:0]
+addSignal -h 25 -holdScope cache_wb_microop_o[4:0]
+addSignal -h 25 /top_tb/u_top/u_processor/retire_store/ready_in
+addSignal -h 25 /top_tb/u_top/u_processor/cache_store_blocked
+addSignal -h 25 -holdScope cache_store_blocked
+addGroup "G6"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

@@ -1,0 +1,212 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        2
+    ],
+    "sram_0001_0000": [
+        "sram_0001_0000",
+        "SxvEy",
+        "module",
+        18
+    ],
+    "rr": [
+        "rr",
+        "nWt8E",
+        "module",
+        8
+    ],
+    "and_or_mux_0001": [
+        "and_or_mux_0001",
+        "ag6gw",
+        "module",
+        13
+    ],
+    "_vcs_unit__3293797779": [
+        "_vcs_unit__3293797779",
+        "m4ITW",
+        "module",
+        1
+    ],
+    "decoder_full": [
+        "decoder_full",
+        "zPCaI",
+        "module",
+        9
+    ],
+    "ibuffer_0000": [
+        "ibuffer_0000",
+        "d1eEi",
+        "module",
+        11
+    ],
+    "ex_0001": [
+        "ex_0001",
+        "gcTuh",
+        "module",
+        5
+    ],
+    "alu": [
+        "alu",
+        "C26kq",
+        "module",
+        3
+    ],
+    "ex_0000": [
+        "ex_0000",
+        "u3xve",
+        "module",
+        4
+    ],
+    "register_file_0000": [
+        "register_file_0000",
+        "NSJeP",
+        "module",
+        6
+    ],
+    "rob": [
+        "rob",
+        "vtxDx",
+        "module",
+        7
+    ],
+    "vld_st_buffer": [
+        "vld_st_buffer",
+        "pJ44R",
+        "module",
+        27
+    ],
+    "ibuffer": [
+        "ibuffer",
+        "T3fdH",
+        "module",
+        10
+    ],
+    "and_or_mux_0004": [
+        "and_or_mux_0004",
+        "KC7WH",
+        "module",
+        14
+    ],
+    "issue": [
+        "issue",
+        "qgNVL",
+        "module",
+        12
+    ],
+    "and_or_mux_000A": [
+        "and_or_mux_000A",
+        "gvkTC",
+        "module",
+        16
+    ],
+    "and_or_mux_0007": [
+        "and_or_mux_0007",
+        "yMIs2",
+        "module",
+        15
+    ],
+    "vis_0000": [
+        "vis_0000",
+        "kLeMP",
+        "module",
+        32
+    ],
+    "arbiter": [
+        "arbiter",
+        "ujx5M",
+        "module",
+        22
+    ],
+    "fifo_dual_ported_0000": [
+        "fifo_dual_ported_0000",
+        "stxsn",
+        "module",
+        17
+    ],
+    "ld_st_buffer": [
+        "ld_st_buffer",
+        "bafEe",
+        "module",
+        26
+    ],
+    "sram_0001_0003": [
+        "sram_0001_0003",
+        "nBxV4",
+        "module",
+        21
+    ],
+    "sram_0001_0001": [
+        "sram_0001_0001",
+        "B38GM",
+        "module",
+        19
+    ],
+    "sram_0001_0002": [
+        "sram_0001_0002",
+        "StmfM",
+        "module",
+        20
+    ],
+    "vex_pipe": [
+        "vex_pipe",
+        "qSwU3",
+        "module",
+        30
+    ],
+    "data_cache_0000": [
+        "data_cache_0000",
+        "dG9jP",
+        "module",
+        23
+    ],
+    "data_operation_0000": [
+        "data_operation_0000",
+        "is5FU",
+        "module",
+        24
+    ],
+    "icache_0000": [
+        "icache_0000",
+        "qL0Zv",
+        "module",
+        25
+    ],
+    "vdata_operation": [
+        "vdata_operation",
+        "cLzYr",
+        "module",
+        28
+    ],
+    "vector_top": [
+        "vector_top",
+        "NwbbT",
+        "module",
+        29
+    ],
+    "vex_0000": [
+        "vex_0000",
+        "LhTRp",
+        "module",
+        31
+    ],
+    "main_memory_0000": [
+        "main_memory_0000",
+        "ZU8nm",
+        "module",
+        33
+    ],
+    "top_tb": [
+        "top_tb",
+        "W0eJz",
+        "module",
+        34
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        35
+    ]
+}

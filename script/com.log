@@ -1,0 +1,191 @@
+Command: vcs +v2k -debug_access+all -full64 -timescale=1ns/1ns -fsdb -sverilog +vcs+loopreport+10000 \
+/home/host/Project/design_project/cpu/include/struct.svh /home/host/Project/design_project/cpu/include/enum.svh \
+/home/host/Project/design_project/cpu/include/csr_defines.svh /home/host/Project/design_project/cpu/include/defines.svh \
+/home/host/Project/design_project/cpu/core/rv32im_vector.sv /home/host/Project/design_project/cpu/core/scalar/alu.sv \
+/home/host/Project/design_project/cpu/core/scalar/bru.sv /home/host/Project/design_project/cpu/core/scalar/btb.sv \
+/home/host/Project/design_project/cpu/core/scalar/csr_registers.sv /home/host/Project/design_project/cpu/core/scalar/csr.sv \
+/home/host/Project/design_project/cpu/core/scalar/ex.sv /home/host/Project/design_project/cpu/core/scalar/processor_top.sv \
+/home/host/Project/design_project/cpu/core/scalar/ras.sv /home/host/Project/design_project/cpu/core/scalar/rat.sv \
+/home/host/Project/design_project/cpu/core/scalar/register_file.sv /home/host/Project/design_project/cpu/core/scalar/rob.sv \
+/home/host/Project/design_project/cpu/core/scalar/rr.sv /home/host/Project/design_project/cpu/core/scalar/decoder_full.sv \
+/home/host/Project/design_project/cpu/core/scalar/decoder.sv /home/host/Project/design_project/cpu/core/scalar/division.sv \
+/home/host/Project/design_project/cpu/core/scalar/flush_controller.sv /home/host/Project/design_project/cpu/core/scalar/free_list.sv \
+/home/host/Project/design_project/cpu/core/scalar/gshare.sv /home/host/Project/design_project/cpu/core/scalar/ibuffer.sv \
+/home/host/Project/design_project/cpu/core/scalar/idecode.sv /home/host/Project/design_project/cpu/core/scalar/ifetch.sv \
+/home/host/Project/design_project/cpu/core/scalar/issue.sv /home/host/Project/design_project/cpu/core/scalar/lsu.sv \
+/home/host/Project/design_project/cpu/core/scalar/multiply.sv /home/host/Project/design_project/cpu/core/scalar/predictor.sv \
+/home/host/Project/design_project/cpu/core/general/and_or_mux.sv /home/host/Project/design_project/cpu/core/general/fifo_dual_ported.sv \
+/home/host/Project/design_project/cpu/core/general/fifo_overflow.sv /home/host/Project/design_project/cpu/core/general/fifo.sv \
+/home/host/Project/design_project/cpu/core/general/pipe_reg.sv /home/host/Project/design_project/cpu/core/general/sram.sv \
+/home/host/Project/design_project/cpu/core/general/arbiter.sv /home/host/Project/design_project/cpu/core/cache/data_cache.sv \
+/home/host/Project/design_project/cpu/core/cache/data_operation.sv /home/host/Project/design_project/cpu/core/cache/icache.sv \
+/home/host/Project/design_project/cpu/core/cache/onehot_detect.sv /home/host/Project/design_project/cpu/core/cache/wait_buffer.sv \
+/home/host/Project/design_project/cpu/core/cache/ld_st_buffer.sv /home/host/Project/design_project/cpu/core/cache/lru.sv \
+/home/host/Project/design_project/cpu/core/cache/lru2.sv /home/host/Project/design_project/cpu/core/cache/lrumore.sv \
+/home/host/Project/design_project/cpu/core/cache/vld_st_buffer.sv /home/host/Project/design_project/cpu/core/cache/vdata_operation.sv \
+/home/host/Project/design_project/cpu/core/vector/valu.sv /home/host/Project/design_project/cpu/core/vector/vector_top.sv \
+/home/host/Project/design_project/cpu/core/vector/vex_pipe.sv /home/host/Project/design_project/cpu/core/vector/vex.sv \
+/home/host/Project/design_project/cpu/core/vector/vrf.sv /home/host/Project/design_project/cpu/core/vector/vmu_ld_eng.sv \
+/home/host/Project/design_project/cpu/core/vector/vmu.sv /home/host/Project/design_project/cpu/core/vector/vis.sv \
+/home/host/Project/design_project/cpu/core/vector/vmu_st_eng.sv /home/host/Project/design_project/cpu/core/perip/main_memory.sv \
+/home/host/Project/design_project/cpu/tb/performance.sv +incdir+/home/host/Project/design_project/cpu/include \
+-l com.log
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Thu Mar  6 19:48:21 2025
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/host/Project/design_project/cpu/include/struct.svh'
+Parsing design file '/home/host/Project/design_project/cpu/include/enum.svh'
+Parsing design file '/home/host/Project/design_project/cpu/include/csr_defines.svh'
+Parsing design file '/home/host/Project/design_project/cpu/include/defines.svh'
+Parsing design file '/home/host/Project/design_project/cpu/core/rv32im_vector.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/alu.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/bru.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/btb.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/csr_registers.sv'
+Parsing included file '../include/csr_defines.svh'.
+Back to file '/home/host/Project/design_project/cpu/core/scalar/csr_registers.sv'.
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/csr.sv'
+Parsing included file '../include/csr_defines.svh'.
+Back to file '/home/host/Project/design_project/cpu/core/scalar/csr.sv'.
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/ex.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/processor_top.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/ras.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/rat.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/register_file.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/rob.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/rr.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/decoder_full.sv'
+Parsing included file '../include/defines.svh'.
+Back to file '/home/host/Project/design_project/cpu/core/scalar/decoder_full.sv'.
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/decoder.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/division.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/flush_controller.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/free_list.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/gshare.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/ibuffer.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/idecode.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/ifetch.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/issue.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/lsu.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/multiply.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/scalar/predictor.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/general/and_or_mux.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/general/fifo_dual_ported.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/general/fifo_overflow.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/general/fifo.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/general/pipe_reg.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/general/sram.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/general/arbiter.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/data_cache.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/data_operation.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/icache.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/onehot_detect.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/wait_buffer.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/ld_st_buffer.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/lru.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/lru2.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/lrumore.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/vld_st_buffer.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/cache/vdata_operation.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/valu.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vector_top.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vex_pipe.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vex.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vrf.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vmu_ld_eng.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vmu.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vis.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/vector/vmu_st_eng.sv'
+Parsing design file '/home/host/Project/design_project/cpu/core/perip/main_memory.sv'
+Parsing design file '/home/host/Project/design_project/cpu/tb/performance.sv'
+Top Level Modules:
+       top_tb
+TimeScale is 1 ns / 1 ns
+
+Warning-[TFIPC] Too few instance port connections
+/home/host/Project/design_project/cpu/core/scalar/alu.sv, 54
+alu, "multiply #(32) multiply( .clk (clk),  .rst_n (rst_n),  .enable (enable_mul),  .data_1 (input_data.data1),  .data_2 (input_data.data2),  .ready (mul_ready),  .result (result_mul));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[NMIN] No module instance name
+/home/host/Project/design_project/cpu/core/vector/vmu.sv, 245
+  No module instance name is specified.
+  Source info: fifo #(.DW(2), .DEPTH(3)) ( .clk (clk),  .rst_n (rst_n),  
+  .valid_flush (1'b0),  .push_data (push_data),  .push (push),  .ready 
+  (fifo_ready),  .pop_data (pop_d ...
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/home/host/Project/design_project/cpu/core/scalar/alu.sv, 34
+"division #(32, DIV_CYCLES) division( .clk (clk),  .rst_n (rst_n),  .enable (enable_div),  .op_type (op_type),  .destination_i (input_data.destination),  .ticket_i (input_data.ticket),  .dividend (input_data.data1),  .divider (input_data.data2),  .ready (div_ready),  .valid (div_valid),  .destination_o (div_destination),  .ticket_o (div_ticket),  .result (result_div));"
+  The following 64-bit expression is connected to 32-bit port "result" of 
+  module "division", instance "division".
+  Expression: result_div
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+/home/host/Project/design_project/cpu/core/scalar/csr.sv, 126
+"csr_registers csr_reg( .clk (clk),  .rst_n (rst_n),  .ext_intr (external_interrupt),  .timer_intr (timer_interrupt),  .interrupt_o (interrupt_o),  .update_vl_en (writeback.update_vl_en),  .update_vtype (writeback.csr_addr),  .valid_exception (exception_i.valid_exception),  .exception (exception_i.exception),  .exception_pc (exception_i.exception_pc),  .exception_addr (exception_i.exception_addr),  .mret (mret),  .read_en (valid),  .read_addr (input_data.csr_addr),  .data_out (csr_rdata),  .write_en (((writeback.csr & writeback.valid_commit) & (~writeback.flushed))),  .write_addr (wb_csr_addr),  .write_data (writeback.csr_wdata));"
+  The following 12-bit expression is connected to 32-bit port "update_vtype" 
+  of module "csr_registers", instance "csr_reg".
+  Expression: writeback.csr_addr
+  	use +lint=PCWM for more details
+
+
+Warning-[IWNF] Implicit wire has no fanin
+/home/host/Project/design_project/cpu/core/vector/vector_top.sv, 118
+  Implicit wire 'flush_valid' does not have any driver, please make sure this 
+  is intended.
+
+Starting vcs inline pass...
+24 modules and 0 UDP read.
+recompiling module alu
+recompiling module ex
+recompiling module register_file
+recompiling module rob
+recompiling module rr
+recompiling module decoder_full
+recompiling module ibuffer
+recompiling module issue
+recompiling module and_or_mux
+recompiling module fifo_dual_ported
+recompiling module sram
+recompiling module arbiter
+recompiling module data_cache
+recompiling module data_operation
+recompiling module icache
+recompiling module ld_st_buffer
+recompiling module vld_st_buffer
+recompiling module vdata_operation
+recompiling module vector_top
+recompiling module vex_pipe
+recompiling module vex
+recompiling module vis
+recompiling module main_memory
+recompiling module top_tb
+All of 24 modules done
+make[1]: Entering directory '/home/host/Project/design_project/cpu/script/csrc'
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic  -Wl,-rpath=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib \
+-L/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib   objs/amcQw_d.o   _53403_archive_1.so \
+SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+-lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o \
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm \
+-lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory '/home/host/Project/design_project/cpu/script/csrc'
+CPU time: 2.917 seconds to compile + .287 seconds to elab + .249 seconds to link

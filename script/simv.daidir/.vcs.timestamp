@@ -1,0 +1,288 @@
+0 
+94
++incdir+/home/host/Project/design_project/cpu/include
++itf+/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp_lite.tab
++v2k
++vcs+loopreport+10000
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-P
+-debug_acc+fsdb
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+/home/host/Project/design_project/cpu/core/cache/data_cache.sv
+/home/host/Project/design_project/cpu/core/cache/data_operation.sv
+/home/host/Project/design_project/cpu/core/cache/icache.sv
+/home/host/Project/design_project/cpu/core/cache/ld_st_buffer.sv
+/home/host/Project/design_project/cpu/core/cache/lru.sv
+/home/host/Project/design_project/cpu/core/cache/lru2.sv
+/home/host/Project/design_project/cpu/core/cache/lrumore.sv
+/home/host/Project/design_project/cpu/core/cache/onehot_detect.sv
+/home/host/Project/design_project/cpu/core/cache/vdata_operation.sv
+/home/host/Project/design_project/cpu/core/cache/vld_st_buffer.sv
+/home/host/Project/design_project/cpu/core/cache/wait_buffer.sv
+/home/host/Project/design_project/cpu/core/general/and_or_mux.sv
+/home/host/Project/design_project/cpu/core/general/arbiter.sv
+/home/host/Project/design_project/cpu/core/general/fifo.sv
+/home/host/Project/design_project/cpu/core/general/fifo_dual_ported.sv
+/home/host/Project/design_project/cpu/core/general/fifo_overflow.sv
+/home/host/Project/design_project/cpu/core/general/pipe_reg.sv
+/home/host/Project/design_project/cpu/core/general/sram.sv
+/home/host/Project/design_project/cpu/core/perip/main_memory.sv
+/home/host/Project/design_project/cpu/core/rv32im_vector.sv
+/home/host/Project/design_project/cpu/core/scalar/alu.sv
+/home/host/Project/design_project/cpu/core/scalar/bru.sv
+/home/host/Project/design_project/cpu/core/scalar/btb.sv
+/home/host/Project/design_project/cpu/core/scalar/csr.sv
+/home/host/Project/design_project/cpu/core/scalar/csr_registers.sv
+/home/host/Project/design_project/cpu/core/scalar/decoder.sv
+/home/host/Project/design_project/cpu/core/scalar/decoder_full.sv
+/home/host/Project/design_project/cpu/core/scalar/division.sv
+/home/host/Project/design_project/cpu/core/scalar/ex.sv
+/home/host/Project/design_project/cpu/core/scalar/flush_controller.sv
+/home/host/Project/design_project/cpu/core/scalar/free_list.sv
+/home/host/Project/design_project/cpu/core/scalar/gshare.sv
+/home/host/Project/design_project/cpu/core/scalar/ibuffer.sv
+/home/host/Project/design_project/cpu/core/scalar/idecode.sv
+/home/host/Project/design_project/cpu/core/scalar/ifetch.sv
+/home/host/Project/design_project/cpu/core/scalar/issue.sv
+/home/host/Project/design_project/cpu/core/scalar/lsu.sv
+/home/host/Project/design_project/cpu/core/scalar/multiply.sv
+/home/host/Project/design_project/cpu/core/scalar/predictor.sv
+/home/host/Project/design_project/cpu/core/scalar/processor_top.sv
+/home/host/Project/design_project/cpu/core/scalar/ras.sv
+/home/host/Project/design_project/cpu/core/scalar/rat.sv
+/home/host/Project/design_project/cpu/core/scalar/register_file.sv
+/home/host/Project/design_project/cpu/core/scalar/rob.sv
+/home/host/Project/design_project/cpu/core/scalar/rr.sv
+/home/host/Project/design_project/cpu/core/vector/valu.sv
+/home/host/Project/design_project/cpu/core/vector/vector_top.sv
+/home/host/Project/design_project/cpu/core/vector/vex.sv
+/home/host/Project/design_project/cpu/core/vector/vex_pipe.sv
+/home/host/Project/design_project/cpu/core/vector/vis.sv
+/home/host/Project/design_project/cpu/core/vector/vmu.sv
+/home/host/Project/design_project/cpu/core/vector/vmu_ld_eng.sv
+/home/host/Project/design_project/cpu/core/vector/vmu_st_eng.sv
+/home/host/Project/design_project/cpu/core/vector/vrf.sv
+/home/host/Project/design_project/cpu/include/csr_defines.svh
+/home/host/Project/design_project/cpu/include/defines.svh
+/home/host/Project/design_project/cpu/include/enum.svh
+/home/host/Project/design_project/cpu/include/struct.svh
+/home/host/Project/design_project/cpu/tb/performance.sv
+/home/synopsys/vcs-mx/O-2018.09-1/linux64/bin/vcs1
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+com.log
+119
+sysc_uni_pwd=/home/host/Project/design_project/cpu/script
+novas_args=-P /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/novas.tab /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a
+XMODIFIERS=@im=ibus
+XILINX_VIVADO=/home/Xilinx/Vivado/2019.1
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1001
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/host/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-host-KNzSdT/database
+WINDOWPATH=1
+VSCODE_GIT_IPC_HANDLE=/run/user/1001/vscode-git-507bc738ab.sock
+VSCODE_GIT_ASKPASS_NODE=/usr/share/code/code
+VSCODE_GIT_ASKPASS_MAIN=/usr/share/code/resources/app/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=--ms-enable-electron-run-as-node
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/synopsys/verdi/Verdi_O-2018.09-SP2
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=com.log
+VCS_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USERNAME=host
+UNAME=/bin/uname
+TOOL_HOME=/home/synopsys/vcs-mx/O-2018.09-1/linux64
+TERM_PROGRAM_VERSION=1.82.2
+TERM_PROGRAM=vscode
+SYNPLIFY_HOME=/home/synopsys/fpga/N-2018.03-SP1
+STARC_HOME=/home/synopsys/starrc/O-2018.06-SP1
+SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+SSH_AGENT_PID=3419
+SPYGLASS_HOME=/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/
+SPECMAN_HOME=/home/cadence/INCISIVE152/components/sn
+SPECMAN_DIR=/home/cadence/INCISIVE152/components/sn/
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3285,unix/unix:/tmp/.ICE-unix/3285
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/home/synopsys/scl/2018.06
+SBX_CHROME_API_RQ=1
+SANDBOX_LD_LIBRARY_PATH=/home/mentor//calibre2019/aoj_cal_2019.3_15.11/shared/pkgs/icv/tools/calibre_client/lib/64:/home/cadence/INCISIVE152/tools.lnx86/lib
+RISCV=/home/host/rvv-cross/riscv-gnu-toolchain
+QUESTASIM_HOME=/home/mentor/questasim
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib/qt-3.3/lib
+QTINC=/usr/lib/qt-3.3/include
+QTDIR=/usr/lib/qt-3.3
+QEMU_HOME=/home/host/rvv-cross/riscv-gnu-toolchain/riscv-gnu-toolchain/qemu-6.0.0
+PT_HOME=/home/synopsys/pts/O-2018.06-SP1
+OVA_UUM=0
+ORIGINAL_XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+NO_AT_BRIDGE=1
+NOVAS_RC=/home/synopsys/verdi/novas.rc
+NOVAS_PLI=/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64
+NOVAS_HOME=/home/synopsys/verdi/Verdi_O-2018.09-SP2
+NOVAS=/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64
+NLINT_HOME=/home/synopsys/nlint
+MMSIMHOME=/home/cadence/SPECTRE181
+MILKWAY_HOME=/home/synopsys/milkway_201506
+MGLS_LICENSE_FILE=/home/mentor//license/license.dat:/home/mentor/questasim/mentor.dat
+MGC_LICENSE_FILE=/home/mentor//license/license.dat
+MGC_LIB_PATH=/home/mentor//calibre2019/aoj_cal_2019.3_15.11/lib
+MGC_HOME=/home/mentor//calibre2019/aoj_cal_2019.3_15.11
+MGC_CALIBRE_SCHEMATIC_SERVER=127.0.0.1:9199
+MGC_CALIBRE_SAVE_ALL_RUNSET_VALUES=1
+MGC_CALIBRE_REALTIME_VIRTUOSO_SAVE_MESSENGER_CELL=1
+MGC_CALIBRE_REALTIME_VIRTUOSO_ENABLED=1
+MGC_CALIBRE_LAYOUT_SERVER=127.0.0.1:9189
+MFLAGS=
+MENTOR_HOME=/home/mentor/
+MAKE_TERMOUT=/dev/pts/1
+MAKE_TERMERR=/dev/pts/1
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/home/synopsys/lc/O-2018.06-SP1
+LC_ALL=C
+KDEDIRS=/usr
+INNOVUS_HOME=/home/cadence/INNOVUS
+INCISIVE_HOME=/home/cadence/INCISIVE152
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+IDENTIFY_HOME=/home/synopsys/identify/N-2018.03-SP1
+ICC_HOME=/home/synopsys/icc/O-2018.06-SP1
+ICC2_HOME=/home/synopsys/icc2/O-2018.06-SP1
+HSPICE_HOME=/home/synopsys/hspice/N-2017.12-SP2/hspice
+HISTCONTROL=ignoredups
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GIT_ASKPASS=/usr/share/code/resources/app/extensions/git/dist/askpass.sh
+GIO_LAUNCHED_DESKTOP_FILE_PID=4087
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/code.desktop
+GDM_LANG=zh_CN.UTF-8
+GDMSESSION=gnome-classic
+GDK_BACKEND=x11
+FORMALITY_HOME=/home/synopsys/fm/O-2018.06-SP1
+DVE_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+DESKTOP_SESSION=gnome-classic
+DC_HOME=/home/synopsys/syn/O-2018.06-SP1
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-TAObChY5T5,guid=be2fa2b1edf40c512808d35d67c56c58
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-TAObChY5T5,guid=be2fa2b1edf40c512808d35d67c56c58
+CX_HOME=/home/synopsys/wv/N-2017.12-SP2
+CUSTOMCOMPILER_HOME=/home/synopsys/customcompiler/N-2017.12-SP1-2
+COLORTERM=truecolor
+CHROME_DESKTOP=code-url-handler.desktop
+CDS_LIC_FILE=/home/cadence/license/cadence.dat
+CDSHOME=/home/cadence/IC618
+CALIBRE_HOME=/home/mentor//calibre2019/aoj_cal_2019.3_15.11
+CALIBRE_ENABLE_SKILL_PEXBA_MODE=1
+CADHOME=/home/cadence
+0
+63
+1741055307 ../include/defines.svh
+1735804216 ../include/csr_defines.svh
+1741260265 /home/host/Project/design_project/cpu/tb/performance.sv
+1732587602 /home/host/Project/design_project/cpu/core/perip/main_memory.sv
+1740018098 /home/host/Project/design_project/cpu/core/vector/vmu_st_eng.sv
+1740019280 /home/host/Project/design_project/cpu/core/vector/vis.sv
+1740039249 /home/host/Project/design_project/cpu/core/vector/vmu.sv
+1740035868 /home/host/Project/design_project/cpu/core/vector/vmu_ld_eng.sv
+1736604212 /home/host/Project/design_project/cpu/core/vector/vrf.sv
+1736942261 /home/host/Project/design_project/cpu/core/vector/vex.sv
+1739931139 /home/host/Project/design_project/cpu/core/vector/vex_pipe.sv
+1740019207 /home/host/Project/design_project/cpu/core/vector/vector_top.sv
+1736932050 /home/host/Project/design_project/cpu/core/vector/valu.sv
+1739759251 /home/host/Project/design_project/cpu/core/cache/vdata_operation.sv
+1739759083 /home/host/Project/design_project/cpu/core/cache/vld_st_buffer.sv
+1732185315 /home/host/Project/design_project/cpu/core/cache/lrumore.sv
+1732774626 /home/host/Project/design_project/cpu/core/cache/lru2.sv
+1736945319 /home/host/Project/design_project/cpu/core/cache/lru.sv
+1739521131 /home/host/Project/design_project/cpu/core/cache/ld_st_buffer.sv
+1739530486 /home/host/Project/design_project/cpu/core/cache/wait_buffer.sv
+1733800203 /home/host/Project/design_project/cpu/core/cache/onehot_detect.sv
+1733022717 /home/host/Project/design_project/cpu/core/cache/icache.sv
+1732878960 /home/host/Project/design_project/cpu/core/cache/data_operation.sv
+1739856513 /home/host/Project/design_project/cpu/core/cache/data_cache.sv
+1739444505 /home/host/Project/design_project/cpu/core/general/arbiter.sv
+1732185315 /home/host/Project/design_project/cpu/core/general/sram.sv
+1736943203 /home/host/Project/design_project/cpu/core/general/pipe_reg.sv
+1732530252 /home/host/Project/design_project/cpu/core/general/fifo.sv
+1732185315 /home/host/Project/design_project/cpu/core/general/fifo_overflow.sv
+1732185315 /home/host/Project/design_project/cpu/core/general/fifo_dual_ported.sv
+1732185315 /home/host/Project/design_project/cpu/core/general/and_or_mux.sv
+1741246409 /home/host/Project/design_project/cpu/core/scalar/predictor.sv
+1741069998 /home/host/Project/design_project/cpu/core/scalar/multiply.sv
+1741227630 /home/host/Project/design_project/cpu/core/scalar/lsu.sv
+1741229641 /home/host/Project/design_project/cpu/core/scalar/issue.sv
+1735544044 /home/host/Project/design_project/cpu/core/scalar/ifetch.sv
+1739859533 /home/host/Project/design_project/cpu/core/scalar/idecode.sv
+1732530235 /home/host/Project/design_project/cpu/core/scalar/ibuffer.sv
+1735456630 /home/host/Project/design_project/cpu/core/scalar/gshare.sv
+1733103416 /home/host/Project/design_project/cpu/core/scalar/free_list.sv
+1734510762 /home/host/Project/design_project/cpu/core/scalar/flush_controller.sv
+1741155636 /home/host/Project/design_project/cpu/core/scalar/division.sv
+1733572555 /home/host/Project/design_project/cpu/core/scalar/decoder.sv
+1741059496 /home/host/Project/design_project/cpu/core/scalar/decoder_full.sv
+1740887415 /home/host/Project/design_project/cpu/core/scalar/rr.sv
+1735895439 /home/host/Project/design_project/cpu/core/scalar/rob.sv
+1741261696 /home/host/Project/design_project/cpu/core/scalar/register_file.sv
+1733192397 /home/host/Project/design_project/cpu/core/scalar/rat.sv
+1732241447 /home/host/Project/design_project/cpu/core/scalar/ras.sv
+1740216902 /home/host/Project/design_project/cpu/core/scalar/processor_top.sv
+1741165816 /home/host/Project/design_project/cpu/core/scalar/ex.sv
+1736941324 /home/host/Project/design_project/cpu/core/scalar/csr.sv
+1735903706 /home/host/Project/design_project/cpu/core/scalar/csr_registers.sv
+1735472387 /home/host/Project/design_project/cpu/core/scalar/btb.sv
+1734510454 /home/host/Project/design_project/cpu/core/scalar/bru.sv
+1741158848 /home/host/Project/design_project/cpu/core/scalar/alu.sv
+1740134160 /home/host/Project/design_project/cpu/core/rv32im_vector.sv
+1741055307 /home/host/Project/design_project/cpu/include/defines.svh
+1735804216 /home/host/Project/design_project/cpu/include/csr_defines.svh
+1740211999 /home/host/Project/design_project/cpu/include/enum.svh
+1740215771 /home/host/Project/design_project/cpu/include/struct.svh
+1550753332 /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1539400757 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp_lite.tab
+4
+1539402341 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so
+1539401183 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so
+1539401125 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so
+1539401175 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so
+1741261704 simv.daidir
+-1 partitionlib

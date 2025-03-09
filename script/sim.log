@@ -1,0 +1,27 @@
+Command: /home/host/Project/design_project/cpu/script/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Mar  6 19:48 2025
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'top.fsdb'
+*Verdi* : Begin traversing the scope (top_tb), layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* WARNING: Var 'top_tb.u_top.u_main_memory.ram' will be ignored because its total element is larger than or equal to 2097152.
+*Verdi* : You may set environmental parameter "FSDB_MAX_VAR_ELEM" to enable the dumping.
+*Verdi* : Value of "FSDB_MAX_VAR_ELEM" should be between 2^21~2^25.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* WARNING: Var 'top_tb.u_top.u_main_memory.ram' will be ignored because its total element is larger than or equal to 2097152.
+*Verdi* : You may set environmental parameter "FSDB_MAX_VAR_ELEM" to enable the dumping.
+*Verdi* : Value of "FSDB_MAX_VAR_ELEM" should be between 2^21~2^25.
+*Verdi* : End of traversing the MDAs.
+Interrupt at time 282230
+
+exit
+            V C S   S i m u l a t i o n   R e p o r t 
+Time: 282230 ns
+CPU Time:      7.060 seconds;       Data structure size:   0.6Mb
+Thu Mar  6 19:48:31 2025
